@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import { Button, Typography, Avatar } from "@material-ui/core";
-import ProfileHead from "../../../images/Head.PNG";
+import ProfileHead from "../../../images/Profile3.png";
 
 const About = () => {
   const visitLinkedin = () => {

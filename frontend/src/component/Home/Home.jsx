@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 import "./Home.css";
-import Product from "./ProductCard.js";
+import Product from "./ProductCard.jsx";
 import { getProduct } from "../../actions/productAction";
 import { useSelector, useDispatch } from "react-redux";
 import Loader from "../layout/Loader/Loader";

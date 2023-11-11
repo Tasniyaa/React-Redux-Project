@@ -11,7 +11,7 @@ import TransferWithinAStationIcon from "@material-ui/icons/TransferWithinAStatio
 import { Country, State } from "country-state-city";
 import { useAlert } from "react-alert";
 import { useNavigate } from "react-router-dom";
-import CheckoutSteps from "../Cart/CheckoutSteps.js";
+import CheckoutSteps from "./CheckoutSteps.jsx";
 
 const Shipping = () => {
   const navigate = useNavigate();
