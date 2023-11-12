@@ -14,8 +14,6 @@ import {
 } from "@material-ui/core";
 
 import LocalMallIcon from "@mui/icons-material/LocalMall";
-//import Badge from "@mui/material/Badge";
-//import Badge from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import React, { useState, useEffect } from "react";
 import { Link as RouterLink } from "react-router-dom";
@@ -27,8 +25,6 @@ import CategoryIcon from "@mui/icons-material/Category";
 import SearchIcon from "@mui/icons-material/Search";
 import AttractionsIcon from "@mui/icons-material/Attractions";
 import LocalPostOfficeIcon from "@mui/icons-material/LocalPostOffice";
-//import Tooltip from "@mui/material/Tooltip";
-//import Zoom from "@mui/material/Zoom";
 
 const useStyles = makeStyles(() => ({
   header: {
@@ -37,13 +33,12 @@ const useStyles = makeStyles(() => ({
     paddingLeft: "0px",
     zIndex: 8,
     "@media (max-width: 900px)": {
-      // paddingLeft: 0,
+
     },
   },
   logo: {
     height: 80,
     width: 150,
-
     fontFamily: "Work Sans, sans-serif",
     fontWeight: 600,
     color: "black",
@@ -150,7 +145,6 @@ export default function Header() {
       ),
       href: "/",
     },
-
     {
       label: (
         <IconButton style={{ color: "white", fontWeight: "bold" }}>
@@ -178,7 +172,6 @@ export default function Header() {
       ),
       href: "/products",
     },
-
     {
       label: (
         <IconButton style={{ color: "white", fontWeight: "bold" }}>

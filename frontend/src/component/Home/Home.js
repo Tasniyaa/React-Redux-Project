@@ -9,6 +9,10 @@ import Carousel from "react-material-ui-carousel";
 import ban2 from "../../images/ban2.webp";
 import ban8 from "../../images/ban8.jpg";
 import ban10 from "../../images/ban10.jpg";
+import plant1 from "../../images/plant1.jpg";
+import plant2 from "../../images/plant2.jpg";
+import plant3 from "../../images/plant3.jpg";
+import moreProduct from "../../images/moreProduct.jpg";
 import { Link } from "react-router-dom";
 import MoreProductBanner from "../../images/ethnic-mens (1).jpg";
 
@@ -32,9 +36,9 @@ const Home = () => {
         <Fragment>
           <div className="banner">
             <Carousel>
-              <img src={ban10} className="banImg" alt="Carousel" />
-              <img src={ban2} className="banImg" alt="Carousel " />
-              <img src={ban8} className="banImg" alt="Carousel " />
+              <img src={plant1} className="banImg" alt="Carousel" />
+              <img src={plant2} className="banImg" alt="Carousel " />
+              <img src={plant3} className="banImg" alt="Carousel " />
             </Carousel>
             <a href="#container">
               <button>View Collections</button>
@@ -50,7 +54,7 @@ const Home = () => {
             <Link to="/Products">
               <button className="moreProductsBtn">
                 <h1>Show More Product</h1>
-                <img src={MoreProductBanner} alt="Banner More Product" />
+                <img src={moreProduct} alt="Banner More Product" />
               </button>
             </Link>
           </div>

@@ -1,3 +1,4 @@
+
 .speedDial {
   position: fixed;
   right: 1vmax;
@@ -11,7 +12,7 @@
 }
 
 .MuiDrawer-paper {
-  background: linear-gradient(to bottom, rgb(255, 210, 0), #fe8c00) !important;
+  background: linear-gradient(to bottom, rgb(24, 183, 24), #00fe77) !important;
 }
 
 @media screen and (max-width: 600px) {
