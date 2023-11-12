@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
-import Sidebar from "./Sidebar.js";
+import Sidebar from "./Sidebar.jsx";
 import "./dashboard.css";
 import { Typography } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { Doughnut, Line } from "react-chartjs-2";
 import Chart from "chart.js/auto"; //important
 import { useDispatch, useSelector } from "react-redux";
-import { getAdminProduct } from "../../actions/productAction.js";
-import { getAllOrders } from "../../actions/orderAction.js";
-import { getAllUsers } from "../../actions/userAction.js";
+import { getAdminProduct } from "../../actions/productAction.jsx";
+import { getAllOrders } from "../../actions/orderAction.jsx";
+import { getAllUsers } from "../../actions/userAction.jsx";
 
 const Dashboard = () => {
   const dispatch = useDispatch();
