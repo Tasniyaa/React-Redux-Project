@@ -1,4 +1,3 @@
-
 .speedDial {
   position: fixed;
   right: 1vmax;
@@ -12,7 +11,8 @@
 }
 
 .MuiDrawer-paper {
-  background: linear-gradient(to bottom, rgb(24, 183, 24), #00fe77) !important;
+  background: linear-gradient(to bottom, rgb(180, 215, 243), rgb(56, 214, 214)) !important;
+  /* color: linear-gradient(to right, rgb(73, 175, 184) 50%, #007ffe) */
 }
 
 @media screen and (max-width: 600px) {
@@ -35,4 +35,18 @@
   .MuiToolbar-gutters {
     padding-right: 10px !important;
   }
+}
+.custom-button{
+  color:white;
+}
+.menu-button{
+  margin-left:9px;
+}
+.menu-button:hover{
+  background: linear-gradient(to bottom, rgb(68, 155, 210), rgb(0, 131, 254));
+  border: white;
+  color:white;
+}
+.FloraLeaft{
+  width: 0px;
 }

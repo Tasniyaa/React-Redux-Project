@@ -65,8 +65,8 @@ const UserOptions = ({ user }) => {
     navigate("/wishlist");
   }
   function logoutUser() {
-    dispatch(logout());
-    alert.success("Logout Successfully");
+   dispatch(logout());
+   alert.success("Logout Successfully");
   }
 
   return (

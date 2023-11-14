@@ -29,7 +29,7 @@
 
 .banImg {
   height: 40vmax;
-  width: 80%;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -111,8 +111,6 @@
   padding: 0 !important;
   transition: all 0.5s;
   cursor: pointer;
-  border: 2px solid rgb(166, 237, 166);
-  border-radius: 1%;
 }
 
 .moreProductsBtn:hover {
@@ -127,10 +125,9 @@
   font: 800 5vmax "Roboto";
   margin: 4vmax;
   text-align: center;
-  color: rgb(43, 41, 41);
-  border: 3px solid rgb(43, 41, 41);
+  color: white;
+  border: 5px solid white;
   padding: 5px;
-  
 }
 
 .moreProductsBtn > img {

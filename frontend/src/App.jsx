@@ -42,6 +42,7 @@ import About from "./component/layout/About/About.jsx";
 import Contact from "./component/layout/Contact/Contact.jsx";
 import NotFound from "./component/layout/Not Found/NotFound.jsx";
 import webpackConfig from "./webpack.config";
+import Head from "./component/layout/Header/Head.js";
 
 function App() {
   const { isAuthenticated, user } = useSelector((state) => state.user);
@@ -226,7 +227,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />{" "}
         <Route path="*" element={<NotFound />} />{" "}
       </Routes>{" "}
+
       <Footer />
+      {/* <Head/> */}
     </Router>
   );
 }
